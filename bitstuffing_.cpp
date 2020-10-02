@@ -72,6 +72,7 @@ int main() {
             ans+=from_s[i];
         }
     }
+    cout << "\n";
     cout<<"Interpreted message at receiver: "<<ans<<endl;
     ofstream MyFile2("receiver.txt");
     MyFile2 << ans;
